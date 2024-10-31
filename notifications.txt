@@ -1,0 +1,12 @@
+<!--<x-app-alerts-topbar num_alerts=" {{ count($notifications) }} ">
+                            @if(count($notifications) == 0)
+                                @php
+                                    $notifications = []
+                                @endphp
+                            @elseif (count($notifications) > 0)
+                                @foreach ($notifications as $x)
+                                   <x-app-alerts-children-topbar id="{{ $x->id }}" icon="fa-envelope" title="{{ $x->title }}" description="{{ $x->description }}">
+                                    </x-app-alerts-children>
+                                @endforeach
+                            @endif
+                        </x-app-alerts-topbar>-->
